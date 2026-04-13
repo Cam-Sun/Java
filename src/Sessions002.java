@@ -1,4 +1,4 @@
-public class Main {
+public class Sessions002 {
     public static void main(String[] args){
 // variable = a reusable container for a value
 //        a variable behaves as if it was the value it contains
@@ -35,5 +35,5 @@ public class Main {
         } else {
             System.out.println("Please buy it from real store");
         }
-    }
+      }
 }
