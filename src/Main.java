@@ -20,10 +20,15 @@ public class Main {
      boolean isOnline = true;
      boolean isOnSale = false;
 
-     System.out.println(age);
+     String firstName = "Wawa";
+     String lastName = "Kabuchoo";
+     String favColour = "red";
 
+
+     System.out.println(age);
      System.out.println("The year is " + year);
-        System.out.println("$" + price);
+     System.out.println("$" + price);
+        System.out.println(firstName + " " + lastName + "'s favourite colour is " + favColour + " in " + year);
 
         if(isOnline){
             System.out.println("You can purchase it online");
