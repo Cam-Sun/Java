@@ -1,16 +1,34 @@
 public class Main {
     public static void main(String[] args){
+// variable = a reusable container for a value
+//        a variable behaves as if it was the value it contains
+// primitive = simple value stored directly in memory (stack)
+// Reference = memory address (stack) that points to the (heap)
+// primitive : int, double, clar, boolean
+//Reference:string, array, object
 
-        // THIS IS MY FIRST JAVA PROGRAM
-        /*
-        This
-        is
-        a multi-line
-        comment
-         */
-        System.out.println("I like pizza!");
-        System.out.print("It's really good\n");
-        System.out.print("Buy me pizza\n");
-        System.out.println();
+     int age = 90;
+     int year = 2025;
+
+     double gpa = 3.5;
+     double height = 165.5;
+     double price = 9.4;
+     char grade = 'A';
+     char symbol = '!';
+     char currency = '$';
+     boolean isStudent = false;
+     boolean isOnline = true;
+     boolean isOnSale = false;
+
+     System.out.println(age);
+
+     System.out.println("The year is " + year);
+        System.out.println("$" + price);
+
+        if(isOnline){
+            System.out.println("You can purchase it online");
+        } else {
+            System.out.println("Please buy it from real store");
+        }
     }
 }
