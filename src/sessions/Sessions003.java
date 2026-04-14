@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package sessions;
+
 import java.util.Scanner;
 
 public class Sessions003 {
