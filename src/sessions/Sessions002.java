@@ -1,3 +1,5 @@
+package sessions;
+
 public class Sessions002 {
     public static void main(String[] args){
 // variable = a reusable container for a value
